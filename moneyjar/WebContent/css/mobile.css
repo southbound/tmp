@@ -1,0 +1,151 @@
+@charset "utf-8";
+/*---------------------------------------------------------------------------
+// mobile.css
+//---------------------------------------------------------------------------
+//      Copyright (C) 2012 Future Architect, Inc. All Rights Reserved.
+//-------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------
+    Common
+---------------------------------------------------------------------------*/
+html {-webkit-text-size-adjust: none}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	background-color: #F79646;
+	color: White;
+	margin: 0;
+	padding: 10px 20px;
+	line-height: 60px;
+	font-size: 32px;
+}
+
+h2 {
+	border-bottom: 1px solid #db8910;
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+h6 {
+	background-color: #F79646;
+	color: White;
+	margin: 0;
+	padding: 5px 5px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+div#wrapper {
+	position: relative;
+}
+
+div#menu {
+	display: none;
+	position: bottom;
+	width: 100%;
+	background-color: #f5c275;
+}
+
+	div#menu h4 {
+		display: block;
+		text-decoration: none;
+		color: Black;
+		line-height: 3em;
+		padding-left: 10px;
+	}
+
+	div#menu a {
+		display: block;
+		text-decoration: none;
+		color: Black;
+		line-height: 3em;
+		padding-left: 10px;
+		border-bottom: 1px solid #db8910;
+	}
+		div#menu a:hover {
+			background-color: #ee9716;
+		}
+		div#menu a.selected {
+			background-color: #F79646;
+		}
+
+div#main {
+	width: 100%;
+	padding: 10px, auto;
+	min-height: 300px;
+	border-left: 1px solid #db8910;
+
+	}
+
+input[type="text"],
+input[type="password"] {
+	padding: 7px 10px;
+	border: 1px solid #DB8910;
+	border-radius: 3px;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background-color: #f2ad46;
+	color: White;
+	border: 1px solid #db8910;
+	border-radius: 3px;
+	padding: 6px 20px;
+	cursor: pointer;
+	font-size: 100%;
+}
+
+
+div#uiLogoutButton {
+	display: none;
+	font-size: 100%;
+	position: bottom;
+}
+
+
+/*---------------------------------------------------------------------------
+    Main
+---------------------------------------------------------------------------*/
+
+
+fieldset {
+	margin: 0px;
+	padding: 0px;
+}
+fieldset#entry {
+	padding: 15px;
+	margin: 0px, 30px;
+	border: 1px #F79646 solid;
+}
+fieldset#entry legend {
+	background: #F79646;
+}
+fieldset#entry select {
+	font-size: 100%;
+	padding: 7px, 10px;
+	border: 1px solid #DB8910;
+	border-radius: 3px;
+}
+fieldset#entry input {
+	font-size: 100%;
+	padding: 7px, 10px;
+	border: 1px solid #DB8910;
+	border-radius: 3px;
+}
+img {
+	width: 100%;
+	border: none;
+}
+div.center {
+	text-align:center;
+	margin:20px auto;
+}
+div.center select{
+	font-size: 100%;
+}

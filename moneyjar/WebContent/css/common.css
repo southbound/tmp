@@ -1,0 +1,235 @@
+@charset "utf-8";
+/*---------------------------------------------------------------------------
+// common.css
+//---------------------------------------------------------------------------
+//      Copyright (C) 2012 Future Architect, Inc. All Rights Reserved.
+//-------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------
+    Common
+---------------------------------------------------------------------------*/
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	background-color: #F79646;
+	color: White;
+	margin: 0;
+	padding: 10px 20px;
+	line-height: 60px;
+	font-size: 32px;
+}
+
+h2 {
+	border-bottom: 1px solid #db8910;
+	margin-top: 0;
+	padding-top: 50px;
+}
+
+h6 {
+	background-color: #F79646;
+	color: White;
+	margin: 0;
+	padding: 5px 5px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+p {
+	margin: 20px 0;
+}
+
+a.reg {
+		color: Black;
+		line-height: 3em;
+		padding: 10px;
+}
+		a.reg:hover {
+			background-color: #ee9716;
+		}
+		a.reg:selected {
+			background-color: #F79646;
+		}
+
+
+div.RegisterForm {
+	margin: 20px;
+	width: 100%;
+}
+
+div#wrapper {
+	position: relative;
+}
+
+div#menu {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 200px;
+	background-color: #f5c275;
+}
+	div#menu div.wrapper {
+		margin: 50px 0 50px 20px;
+	}
+	div#menu h4 {
+		display: block;
+		text-decoration: none;
+		color: Black;
+		line-height: 3em;
+		padding-left: 10px;
+	}
+
+	div#menu a {
+		display: block;
+		text-decoration: none;
+		color: Black;
+		line-height: 3em;
+		padding-left: 10px;
+		border-bottom: 1px solid #db8910;
+	}
+		div#menu a:hover {
+			background-color: #ee9716;
+		}
+		div#menu a.selected {
+			background-color: #F79646;
+		}
+
+div#main {
+	padding: 0 50px 50px;
+	min-height: 300px;
+		border-left: 1px solid #db8910;
+		margin-left: 200px;
+	}
+
+input[type="text"],
+input[type="password"] {
+	padding: 7px 10px;
+	border: 1px solid #DB8910;
+	border-radius: 3px;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background-color: #f2ad46;
+	color: White;
+	border: 1px solid #db8910;
+	border-radius: 3px;
+	padding: 6px 20px;
+	cursor: pointer;
+	font-size: 100%;
+}
+	input[type="submit"].#DB8910,
+	input[type="reset"].#DB8910,
+	input[type="button"].#DB8910 {
+		background-color: #db8910;
+		color: Black;
+		border-color: #DB8910;
+		font-weigth: normal;
+		font-size: 100%;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #333;
+	font-size: 100%;
+	border: 1px solid #DB8910;
+	width: 100%;
+}
+	table th {
+		text-align: left;
+	}
+	table th,
+	table td {
+		padding: 5px 10px;
+		border-left: 1px dashed #db8910;
+		border-top: 1px solid #DB8910;
+	}
+	table tr.item {
+		line-height: 2em;
+		background-color: #F5C275;
+	}
+	table tr.item:nth-child(odd) {
+		background-color: White;
+	}
+
+
+div#uiLogoutButton {
+	font-size: 100%;
+	position: absolute;
+	top: 45px;
+	right: 40px;
+}
+
+
+/*---------------------------------------------------------------------------
+    Main
+---------------------------------------------------------------------------*/
+
+
+
+div.loginForm {
+	display: table;
+	width: 400px;
+}
+	div.loginForm div.line {
+		display: table-row;
+		line-height: 40px;
+	}
+		div.loginForm div.line div {
+			display: table-cell;
+		}
+		div.loginForm div.line div.label {
+			width: 120px;
+			padding-right: 10px;
+			text-align: right;
+		}
+		div.loginForm div.line div.control {
+		}
+			div.loginForm div.line div.control input[type="text"] {
+				width: 258px;
+			}
+			div.loginForm div.line div.control input[type="password"] {
+				width: 158px;
+			}
+			div.loginForm div.line div.control input[type="submit"] {
+				width: 95px;
+			}
+fieldset {
+	margin: 0px;
+	padding: 0px;
+}
+fieldset#entry {
+	padding: 30px;
+	margin: 0px, 30px;
+	border: 1px #F79646 solid;
+}
+fieldset#entry legend {
+	background: #F79646;
+}
+fieldset#entry select {
+	font-size: 100%;
+	padding: 7px, 10px;
+	border: 1px solid #DB8910;
+	border-radius: 3px;
+}
+fieldset#entry input {
+	font-size: 100%;
+	padding: 7px, 10px;
+	border: 1px solid #DB8910;
+	border-radius: 3px;
+}
+img {
+border: none;
+}
+div.center {
+	text-align:center;
+	margin:20px auto;
+}
+div.center select{
+		font-size: 100%;
+}
